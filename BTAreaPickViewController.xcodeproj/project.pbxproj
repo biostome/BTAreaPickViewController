@@ -353,7 +353,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WP9T2H254R;
 				INFOPLIST_FILE = BTAreaPickViewController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,7 +373,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WP9T2H254R;
 				INFOPLIST_FILE = BTAreaPickViewController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
