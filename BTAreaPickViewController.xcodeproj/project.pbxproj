@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9913901C2389224F008A1856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913901B2389224F008A1856 /* AppDelegate.m */; };
+		9913901F2389224F008A1856 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913901E2389224F008A1856 /* SceneDelegate.m */; };
+		991390222389224F008A1856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991390212389224F008A1856 /* ViewController.m */; };
+		991390252389224F008A1856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991390232389224F008A1856 /* Main.storyboard */; };
+		9913902723892250008A1856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9913902623892250008A1856 /* Assets.xcassets */; };
+		9913902A23892250008A1856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9913902823892250008A1856 /* LaunchScreen.storyboard */; };
+		9913902D23892250008A1856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913902C23892250008A1856 /* main.m */; };
+		991390522389226D008A1856 /* BTAreaPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991390512389226D008A1856 /* BTAreaPickViewController.m */; };
+		99AA86302389276E008045D0 /* BTAreaPickViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AA862F2389276E008045D0 /* BTAreaPickViewModel.m */; };
+		99B9D76A238944A1007469E8 /* BTCoverVerticalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B9D769238944A1007469E8 /* BTCoverVerticalTransition.m */; };
+		99F6848E2389314100C68E76 /* pca-code.json in Resources */ = {isa = PBXBuildFile; fileRef = 99F6848D2389314100C68E76 /* pca-code.json */; };
+		99FFEE0E238B902B00DDE9AB /* UIAlertController+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FFEE0D238B902B00DDE9AB /* UIAlertController+Core.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		991390172389224F008A1856 /* BTAreaPickViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTAreaPickViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9913901A2389224F008A1856 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9913901B2389224F008A1856 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9913901D2389224F008A1856 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9913901E2389224F008A1856 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		991390202389224F008A1856 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		991390212389224F008A1856 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		991390242389224F008A1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9913902623892250008A1856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9913902923892250008A1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9913902B23892250008A1856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9913902C23892250008A1856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991390502389226D008A1856 /* BTAreaPickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAreaPickViewController.h; sourceTree = "<group>"; };
+		991390512389226D008A1856 /* BTAreaPickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAreaPickViewController.m; sourceTree = "<group>"; };
+		99AA862E2389276E008045D0 /* BTAreaPickViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAreaPickViewModel.h; sourceTree = "<group>"; };
+		99AA862F2389276E008045D0 /* BTAreaPickViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAreaPickViewModel.m; sourceTree = "<group>"; };
+		99B9D768238944A1007469E8 /* BTCoverVerticalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCoverVerticalTransition.h; sourceTree = "<group>"; };
+		99B9D769238944A1007469E8 /* BTCoverVerticalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCoverVerticalTransition.m; sourceTree = "<group>"; };
+		99F6848D2389314100C68E76 /* pca-code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pca-code.json"; sourceTree = "<group>"; };
+		99FFEE0C238B902B00DDE9AB /* UIAlertController+Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Core.h"; sourceTree = "<group>"; };
+		99FFEE0D238B902B00DDE9AB /* UIAlertController+Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Core.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991390142389224F008A1856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9913900E2389224F008A1856 = {
+			isa = PBXGroup;
+			children = (
+				991390192389224F008A1856 /* BTAreaPickViewController */,
+				991390182389224F008A1856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991390182389224F008A1856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991390172389224F008A1856 /* BTAreaPickViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991390192389224F008A1856 /* BTAreaPickViewController */ = {
+			isa = PBXGroup;
+			children = (
+				991DBDFF23894A0E0065E473 /* UIAlertController+ */,
+				99B9D767238944A1007469E8 /* BTTransitionAnimation */,
+				9913904F23892256008A1856 /* BTAreaPickViewController */,
+				9913901A2389224F008A1856 /* AppDelegate.h */,
+				9913901B2389224F008A1856 /* AppDelegate.m */,
+				9913901D2389224F008A1856 /* SceneDelegate.h */,
+				9913901E2389224F008A1856 /* SceneDelegate.m */,
+				991390202389224F008A1856 /* ViewController.h */,
+				991390212389224F008A1856 /* ViewController.m */,
+				991390232389224F008A1856 /* Main.storyboard */,
+				9913902623892250008A1856 /* Assets.xcassets */,
+				9913902823892250008A1856 /* LaunchScreen.storyboard */,
+				9913902B23892250008A1856 /* Info.plist */,
+				9913902C23892250008A1856 /* main.m */,
+			);
+			path = BTAreaPickViewController;
+			sourceTree = "<group>";
+		};
+		9913904F23892256008A1856 /* BTAreaPickViewController */ = {
+			isa = PBXGroup;
+			children = (
+				995A85612389230600F2DC43 /* JsonAreaOfChina */,
+				991390502389226D008A1856 /* BTAreaPickViewController.h */,
+				991390512389226D008A1856 /* BTAreaPickViewController.m */,
+				99AA862E2389276E008045D0 /* BTAreaPickViewModel.h */,
+				99AA862F2389276E008045D0 /* BTAreaPickViewModel.m */,
+			);
+			path = BTAreaPickViewController;
+			sourceTree = "<group>";
+		};
+		991DBDFF23894A0E0065E473 /* UIAlertController+ */ = {
+			isa = PBXGroup;
+			children = (
+				99FFEE0C238B902B00DDE9AB /* UIAlertController+Core.h */,
+				99FFEE0D238B902B00DDE9AB /* UIAlertController+Core.m */,
+			);
+			path = "UIAlertController+";
+			sourceTree = "<group>";
+		};
+		995A85612389230600F2DC43 /* JsonAreaOfChina */ = {
+			isa = PBXGroup;
+			children = (
+				99F6848D2389314100C68E76 /* pca-code.json */,
+			);
+			path = JsonAreaOfChina;
+			sourceTree = "<group>";
+		};
+		99B9D767238944A1007469E8 /* BTTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				99B9D768238944A1007469E8 /* BTCoverVerticalTransition.h */,
+				99B9D769238944A1007469E8 /* BTCoverVerticalTransition.m */,
+			);
+			path = BTTransitionAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991390162389224F008A1856 /* BTAreaPickViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9913904623892250008A1856 /* Build configuration list for PBXNativeTarget "BTAreaPickViewController" */;
+			buildPhases = (
+				991390132389224F008A1856 /* Sources */,
+				991390142389224F008A1856 /* Frameworks */,
+				991390152389224F008A1856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTAreaPickViewController;
+			productName = BTAreaPickViewController;
+			productReference = 991390172389224F008A1856 /* BTAreaPickViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9913900F2389224F008A1856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = leishen;
+				TargetAttributes = {
+					991390162389224F008A1856 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 991390122389224F008A1856 /* Build configuration list for PBXProject "BTAreaPickViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9913900E2389224F008A1856;
+			productRefGroup = 991390182389224F008A1856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991390162389224F008A1856 /* BTAreaPickViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991390152389224F008A1856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9913902A23892250008A1856 /* LaunchScreen.storyboard in Resources */,
+				99F6848E2389314100C68E76 /* pca-code.json in Resources */,
+				9913902723892250008A1856 /* Assets.xcassets in Resources */,
+				991390252389224F008A1856 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991390132389224F008A1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFEE0E238B902B00DDE9AB /* UIAlertController+Core.m in Sources */,
+				991390222389224F008A1856 /* ViewController.m in Sources */,
+				99B9D76A238944A1007469E8 /* BTCoverVerticalTransition.m in Sources */,
+				9913901C2389224F008A1856 /* AppDelegate.m in Sources */,
+				9913902D23892250008A1856 /* main.m in Sources */,
+				9913901F2389224F008A1856 /* SceneDelegate.m in Sources */,
+				99AA86302389276E008045D0 /* BTAreaPickViewModel.m in Sources */,
+				991390522389226D008A1856 /* BTAreaPickViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		991390232389224F008A1856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991390242389224F008A1856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9913902823892250008A1856 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9913902923892250008A1856 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9913904423892250008A1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9913904523892250008A1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9913904723892250008A1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WP9T2H254R;
+				INFOPLIST_FILE = BTAreaPickViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.mobiledev.MKLotteryTicket2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mkcp_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9913904823892250008A1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WP9T2H254R;
+				INFOPLIST_FILE = BTAreaPickViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.mobiledev.MKLotteryTicket2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mkcp_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991390122389224F008A1856 /* Build configuration list for PBXProject "BTAreaPickViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9913904423892250008A1856 /* Debug */,
+				9913904523892250008A1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9913904623892250008A1856 /* Build configuration list for PBXNativeTarget "BTAreaPickViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9913904723892250008A1856 /* Debug */,
+				9913904823892250008A1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9913900F2389224F008A1856 /* Project object */;
+}
