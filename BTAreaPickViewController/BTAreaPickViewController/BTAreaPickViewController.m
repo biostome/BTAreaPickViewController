@@ -67,13 +67,7 @@
                            withCitieIndex:(NSInteger)citieIndex
                             withAreaIndex:(NSInteger)areaIndex {
     self.model.selectedProvince = self.model.provinces[provinceIndex];
-    if (citieIndex>self.model.selectedProvince.children.count) {
-        citieIndex = [self.pickerView selectedRowInComponent:1];
-    }
     self.model.selectedCitie = self.model.selectedProvince.children[citieIndex];
-    if (areaIndex>self.model.selectedCitie.children.count) {
-        areaIndex = [self.pickerView selectedRowInComponent:2];
-    }
     self.model.selectedArea = self.model.selectedCitie.children[areaIndex];
 }
 
@@ -103,16 +97,13 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     switch (component) {
         case 0: {
-            self.model.selectedProvince = self.model.provinces[row];
-            return self.model.selectedProvince.name;
+            return self.model.provinces[row].name;
         }
         case 1: {
-            self.model.selectedCitie = self.model.provinces[self.provinceIndex].children[row];
-            return self.model.selectedCitie.name;
+            return self.model.provinces[self.provinceIndex].children[row].name;
         }
         case 2: {
-            self.model.selectedArea = self.model.provinces[self.provinceIndex].children[self.citieIndex].children[row];
-            return self.model.selectedArea.name;
+            return self.model.provinces[self.provinceIndex].children[self.citieIndex].children[row].name;
         }
         default: {
             return nil;
@@ -141,11 +132,17 @@
         }
         case 2:{
             self.areaIndex = row;
+            NSInteger areaCount = self.model.provinces[self.provinceIndex].children[self.citieIndex].children.count;
+            if (row > areaCount) {
+                self.areaIndex = areaCount-1;
+                [pickerView selectRow:self.areaIndex inComponent:2 animated:YES];
+            }
             break;
         }
         default:
             break;
     }
+    [self setSelectedModelWithProvinceIndex:self.provinceIndex withCitieIndex:self.citieIndex withAreaIndex:self.areaIndex];
     if ([self.delegate respondsToSelector:@selector(areaPickerView:didSelectAreaModel:)]) {
         [self.delegate areaPickerView:self didSelectAreaModel:self.model];
     }
