@@ -117,6 +117,7 @@
         case 0:{
             self.provinceIndex = row;
             self.citieIndex = 0;
+            self.areaIndex = 0;
             [pickerView reloadComponent:1];
             [pickerView reloadComponent:2];
             [pickerView selectRow:0 inComponent:1 animated:YES];
